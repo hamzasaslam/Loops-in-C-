@@ -1,5 +1,5 @@
 //This Program shows the Execution of Loops
-//Print Numbers 1-10
+//Print First N Numbers
 #include <iostream>
 using namespace std;
 int main(){
