@@ -1,0 +1,26 @@
+#include <iostream>;
+using namespace std;
+int main()
+{
+    int a, n, sum = 0;
+    cout << "enter the number\n";
+    cin >> n;
+    for (a = 1; a < n; a++)
+    {
+        n <= 500;
+        if (n % a == 0)
+        {
+            sum = sum + a;
+        }
+    }
+
+    if (sum == n)
+    {
+        cout << "perfect\n";
+    }
+    else
+    {
+        cout << "not perfect";
+    }
+    return 0;
+}
