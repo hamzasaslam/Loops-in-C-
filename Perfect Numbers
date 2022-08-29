@@ -1,0 +1,44 @@
+// This Program shows the Execution of Loops
+// Check the number is Perfect Numbers
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a = 1, n, sum = 0;
+    cout << "Please Enter the number" << endl;
+    cin >> n;
+    cout << "Verified Using For loop" << endl;
+
+    for (a; a < n; a++)
+    {
+        if (n % a == 0)
+        {
+            sum = sum + a;
+        }
+    }
+    if (sum == n)
+    {
+        cout << "Perfect Number" << endl;
+    }
+    else
+    {
+        cout << "Not a perfect number" << endl;
+    }
+    cout << "Verified Using While loop" << endl;
+    while (a < n)
+    {
+        n % a == 0;
+        sum = sum + a;
+        a++;
+    }
+    if (sum == n)
+    {
+        cout << "Perfect Numbers" << endl;
+    }
+    else
+    {
+        cout << "Not a perfect number" << endl;
+    }
+
+    return 0;
+}
